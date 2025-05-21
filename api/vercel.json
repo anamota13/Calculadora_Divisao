@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/divide.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/api/divide", "dest": "/api/divide.js" }]
+}
